@@ -1,0 +1,48 @@
+# Python 缓存和字节码
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境 (根据您的环境名称调整)
+venv/
+.venv/
+env/
+*/env/
+*/venv/
+*/.venv/
+
+# 输出目录 (包含大的模型检查点和日志)
+output/
+*/output/
+
+# 数据文件 (通常很大，不建议上传)
+data/raw/
+ 
+# 注意：如果您的 processed 数据 (JSONL) 很小且对复现至关重要，可以考虑不忽略它，
+# 但通常建议在 README 中说明如何生成数据，而不是直接上传。
+
+# 操作系统/IDE 特定文件
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# 依赖/构建相关
+dist/
+build/
+*.egg-info/
+downloads/
+*.log
+logs/
+
+# 敏感信息 (确保不要上传任何密钥或令牌!)
+*.token
+*.key
+.env
+credentials.*
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
